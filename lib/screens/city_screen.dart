@@ -39,6 +39,7 @@ class _CityScreenState extends State<CityScreen> {
                 child: TextField(
                     onChanged: (value) {
                       TypedName = value;
+                      //print(TypedName);
                     },
                     style: TextStyle(
                       color: Colors.black,
