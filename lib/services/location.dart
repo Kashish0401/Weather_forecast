@@ -14,5 +14,6 @@ class Location {
     } catch (e) {
       print(e);
     }
-  }
+  } //this is used when we need to fetch data which will take some time. Async will allow
+// the program to continue doing next tasks while it completes the task which is taking time.
 }
